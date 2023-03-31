@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56F278D929D687CE00682312 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F278D529D687CD00682312 /* RxSwift.framework */; };
+		56F278DA29D687CE00682312 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F278D629D687CE00682312 /* RxBlocking.framework */; };
+		56F278DB29D687CE00682312 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F278D729D687CE00682312 /* RxCocoa.framework */; };
+		56F278DC29D687CE00682312 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F278D829D687CE00682312 /* RxRelay.framework */; };
 		75C1D752260A9273004B84DF /* RxSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FDEE0A260A920E00F14013 /* RxSwift.xcframework */; };
 		75C1D753260A9273004B84DF /* RxCocoa.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FDEE0C260A920E00F14013 /* RxCocoa.xcframework */; };
 		75C1D754260A9273004B84DF /* RxRelay.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FDEE0B260A920E00F14013 /* RxRelay.xcframework */; };
@@ -14,11 +18,8 @@
 		75C1D756260A9273004B84DF /* RxTest.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FDEE0D260A920E00F14013 /* RxTest.xcframework */; };
 		75FDEE01260A8E2500F14013 /* GenericRxGestureRecognizerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A5177B1E4FED3900A65547 /* GenericRxGestureRecognizerDelegate.swift */; };
 		75FDEE05260A8E2600F14013 /* GenericRxGestureRecognizerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A5177B1E4FED3900A65547 /* GenericRxGestureRecognizerDelegate.swift */; };
-		75FDEE10260A920E00F14013 /* RxSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FDEE0A260A920E00F14013 /* RxSwift.xcframework */; };
 		75FDEE11260A920E00F14013 /* RxSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FDEE0A260A920E00F14013 /* RxSwift.xcframework */; };
-		75FDEE12260A920E00F14013 /* RxRelay.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FDEE0B260A920E00F14013 /* RxRelay.xcframework */; };
 		75FDEE13260A920E00F14013 /* RxRelay.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FDEE0B260A920E00F14013 /* RxRelay.xcframework */; };
-		75FDEE14260A920E00F14013 /* RxCocoa.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FDEE0C260A920E00F14013 /* RxCocoa.xcframework */; };
 		75FDEE15260A920E00F14013 /* RxCocoa.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FDEE0C260A920E00F14013 /* RxCocoa.xcframework */; };
 		874DD3DD1FAD067200A61D4F /* GestureRecognizer+RxGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874DD3DC1FAD067200A61D4F /* GestureRecognizer+RxGesture.swift */; };
 		874DD3DE1FAD067200A61D4F /* GestureRecognizer+RxGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874DD3DC1FAD067200A61D4F /* GestureRecognizer+RxGesture.swift */; };
@@ -64,6 +65,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		56F278D529D687CD00682312 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = ../Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		56F278D629D687CE00682312 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = ../Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		56F278D729D687CE00682312 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = ../Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		56F278D829D687CE00682312 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = ../Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
 		75FDEE09260A920E00F14013 /* RxBlocking.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxBlocking.xcframework; path = ../Carthage/Build/RxBlocking.xcframework; sourceTree = "<group>"; };
 		75FDEE0A260A920E00F14013 /* RxSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxSwift.xcframework; path = ../Carthage/Build/RxSwift.xcframework; sourceTree = "<group>"; };
 		75FDEE0B260A920E00F14013 /* RxRelay.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxRelay.xcframework; path = ../Carthage/Build/RxRelay.xcframework; sourceTree = "<group>"; };
@@ -131,9 +136,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75FDEE14260A920E00F14013 /* RxCocoa.xcframework in Frameworks */,
-				75FDEE10260A920E00F14013 /* RxSwift.xcframework in Frameworks */,
-				75FDEE12260A920E00F14013 /* RxRelay.xcframework in Frameworks */,
+				56F278D929D687CE00682312 /* RxSwift.framework in Frameworks */,
+				56F278DA29D687CE00682312 /* RxBlocking.framework in Frameworks */,
+				56F278DB29D687CE00682312 /* RxCocoa.framework in Frameworks */,
+				56F278DC29D687CE00682312 /* RxRelay.framework in Frameworks */,
 				F4CC4C571DEBAF98009ED835 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,6 +235,10 @@
 		F4CC4C4E1DEBACC7009ED835 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				56F278D629D687CE00682312 /* RxBlocking.framework */,
+				56F278D729D687CE00682312 /* RxCocoa.framework */,
+				56F278D829D687CE00682312 /* RxRelay.framework */,
+				56F278D529D687CD00682312 /* RxSwift.framework */,
 				75FDEE09260A920E00F14013 /* RxBlocking.xcframework */,
 				75FDEE0C260A920E00F14013 /* RxCocoa.xcframework */,
 				75FDEE0B260A920E00F14013 /* RxRelay.xcframework */,
@@ -731,6 +741,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EXCLUDED_ARCHS = arm64;
 				FRAMEWORK_SEARCH_PATHS = "../Carthage/Build/iOS/**";
 				INFOPLIST_FILE = RxGesture/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -758,6 +769,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EXCLUDED_ARCHS = arm64;
 				FRAMEWORK_SEARCH_PATHS = "../Carthage/Build/iOS/**";
 				INFOPLIST_FILE = RxGesture/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
